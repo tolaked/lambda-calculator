@@ -17,8 +17,8 @@ const Operators = () => {
       {NumberOperator.map(element => (
         <OperatorButton
           className="operator-container"
-          key={element.value}
-          operator={element.value}
+          key={element.char}
+          operator={element.char}
         />
       ))}
     </div>
